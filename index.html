@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="css/framework.css" />
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+    <div class="page">
+        <!-- SideBar -->
+        <aside class="bg-white p-20 sidebar">
+            <h1 class="text-center">Dashboard</h1>
+            <ul>
+                <li class="mb-5">
+                    <a href="index.html" class="active">
+                        <i class="fa-solid fa-chart-pie fa-fw"></i>
+                        <span class="hide-mob">Dashboard</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="settings.html">
+                        <i class="fa-solid fa-sliders fa-fw"></i>
+                        <span class="hide-mob">settings</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="profile.html">
+                        <i class="fa-solid fa-id-card-clip fa-fw"></i>
+                        <span class="hide-mob">profile</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mob">projects</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="courses.html">
+                        <i class="fa-solid fa-book fa-fw"></i>
+                        <span class="hide-mob">courses</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="friends.html">
+                        <i class="fa-solid fa-users fa-fw"></i>
+                        <span class="hide-mob">friends</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                        <span class="hide-mob">files</span>
+                    </a>
+                </li>
+                <li class="mb-5">
+                    <a href="plans.html">
+                        <i class="fa-solid fa-comments-dollar fa-fw"></i>
+                        <span class="hide-mob">plans</span>
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Header -->
+            <header class="p-20 header dis-flex-align-center-just-between bg-white">
+                <div class="search pos-rel">
+                    <i class="fa-solid fa-magnifying-glass pos-abs"></i>
+                    <input type="text" placeholder="Search ... " />
+                </div>
+                <div class="icons dis-flex align-center">
+                    <i class="fa-regular fa-bell"></i>
+                    <img class="profile" src="imgs/profile.png" />
+                </div>
+            </header>
+            <!-- Page-title -->
+            <h1 class="pl-20 pr-20 page-title pos-rel">Dashboard</h1>
+            <!-- Wrapper -->
+            <div class="wrapper p-20">
+                <div class="card">
+                    <div class="intro">
+                        <div class="top dis-flex justify-between">
+                            <div class="left pr-10">
+                                <h3>Welcome Admin</h3>
+                                <p>Here you can control every thing and know any information you need about your
+                                    business</p>
+                            </div>
+                            <div class="right">
+                                <img src="imgs/intro.svg" />
+                            </div>
+                        </div>
+                        <div class="bottom dis-flex-align-center-just-between mt-10 pt-10">
+                            <div class="item dis-flex align-center flex-direction-column">
+                                <p class="val">
+                                    Omar Gaafar
+                                </p>
+                                <p class="title">
+                                    Admin
+                                </p>
+                            </div>
+                            <div class="item dis-flex align-center flex-direction-column">
+                                <p class="val">
+                                    Projects
+                                </p>
+                                <p class="title">
+                                    85
+                                </p>
+                            </div>
+                            <div class="item dis-flex align-center flex-direction-column">
+                                <p class="val">
+                                    Earnings
+                                </p>
+                                <p class="title">
+                                    +128k$
+                                </p>
+                            </div>
+                        </div>
+                        <div class="text-right mt-20">
+                            <a href="#" class="btn-shape dis-flex blue">Profile <i
+                                    class="fa-solid fa-arrow-right ml-10"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="quick-draft">
+                        <h3 class="card-title">Quick Draft</h3>
+                        <p class="card-desc">Write your amazing ideas </p>
+                        <form class="dis-flex flex-direction-column">
+                            <input class="form-control mb-20" type="text" placeholder="Idea title">
+                            <textarea class="form-control" placeholder="Idea description"></textarea>
+                            <div class="text-right mt-20">
+                                <button type="submit" class="btn-shape green">Add <i
+                                        class="fa-solid fa-plus ml-10"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="targets">
+                        <h3 class="card-title">Yearly Targets</h3>
+                        <p class="card-desc">Set your goals and keep track for them</p>
+                        <div class="target mb-20 dis-flex align-center blue">
+                            <div class="left mr-20 dis-flex align-center justify-center">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                            </div>
+                            <div class="right">
+                                <p class="title font-bold">Money</p>
+                                <p class="value font-italic mb-10">20,000$</p>
+                                <div class="progress pos-rel">
+                                    <div class="track"></div>
+                                    <div class="percentage pos-abs" style="width: 75%;">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="target mb-20 dis-flex align-center orange">
+                            <div class="left mr-20 dis-flex align-center justify-center">
+                                <i class="fa-brands fa-js"></i>
+                            </div>
+                            <div class="right">
+                                <p class="title font-bold">Java script</p>
+                                <p class="value font-italic mb-10">Course</p>
+                                <div class="progress pos-rel">
+                                    <div class="track"></div>
+                                    <div class="percentage pos-abs" style="width: 30%;">
+                                        <span>30%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="target mb-20 dis-flex align-center green">
+                            <div class="left mr-20 dis-flex align-center justify-center">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
+                            <div class="right">
+                                <p class="title font-bold">Team</p>
+                                <p class="value font-italic mb-10">12</p>
+                                <div class="progress pos-rel">
+                                    <div class="track"></div>
+                                    <div class="percentage pos-abs" style="width: 100%;">
+                                        <span>100%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="tickets">
+                        <h3 class="card-title">Yearly Targets</h3>
+                        <p class="card-desc">Set your goals and keep track for them</p>
+                        <div class="wrapper">
+                            <div class="item">
+                                <i class="fa-solid fa-list-ul"></i>
+                                <p class="nu">2500</p>
+                                <p class="title">All tickets</p>
+                            </div>
+                            <div class="item orange">
+                                <i class="fa-solid fa-spinner"></i>
+                                <p class="nu">500</p>
+                                <p class="title">Pending tickets</p>
+                            </div>
+                            <div class="item green">
+                                <i class="fa-solid fa-square-check"></i>
+                                <p class="nu">1100</p>
+                                <p class="title">Closed tickets</p>
+                            </div>
+                            <div class="item red">
+                                <i class="fa-solid fa-trash"></i>
+                                <p class="nu">900</p>
+                                <p class="title">Deleted tickets</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="news">
+                        <h3 class="card-title">Latest News</h3>
+                        <p class="card-desc"></p>
+                        <div class="wrapper">
+                            <div class="item dis-flex">
+                                <div class="img-wrapper">
+                                    <img src="imgs/news1.jpg">
+                                </div>
+                                <div class="info">
+                                    <h4 class="title">
+                                        title
+                                    </h4>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+                                    </p>
+                                    <p class="date">3 days ago</p>
+                                </div>
+                            </div>
+                            <div class="item dis-flex">
+                                <div class="img-wrapper">
+                                    <img src="imgs/news2.jpg">
+                                </div>
+                                <div class="info">
+                                    <h4 class="title">
+                                        title
+                                    </h4>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+                                    </p>
+                                    <p class="date">3 days ago</p>
+                                </div>
+                            </div>
+                            <div class="item dis-flex">
+                                <div class="img-wrapper">
+                                    <img src="imgs/news3.jpg">
+                                </div>
+                                <div class="info">
+                                    <h4 class="title">
+                                        title
+                                    </h4>
+                                    <p class="desc">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+                                    </p>
+                                    <p class="date">3 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="tasks">
+                        <h3 class="card-title">Latest tasks</h3>
+                        <p class="card-desc">Control day with tasks</p>
+                        <div class="wrapper">
+                            <div class="item dis-flex-align-center-just-between">
+                                <div class="info">
+                                    <h4>Task name</h4>
+                                    <p>Task desc</p>
+                                </div>
+                                <i class="fa-solid fa-square-check"></i>
+                                <i class="fa-regular fa-square"></i>
+                            </div>
+                            <div class="item dis-flex-align-center-just-between">
+                                <div class="info">
+                                    <h4>Task name</h4>
+                                    <p>Task desc</p>
+                                </div>
+                                <i class="fa-solid fa-square-check"></i>
+                                <i class="fa-regular fa-square"></i>
+                            </div>
+                            <div class="item dis-flex-align-center-just-between done">
+                                <div class="info">
+                                    <h4>Task name</h4>
+                                    <p>Task desc</p>
+                                </div>
+                                <i class="fa-solid fa-square-check"></i>
+                                <i class="fa-regular fa-square"></i>
+                            </div>
+                            <div class="item dis-flex-align-center-just-between">
+                                <div class="info">
+                                    <h4>Task name</h4>
+                                    <p>Task desc</p>
+                                </div>
+                                <i class="fa-solid fa-square-check"></i>
+                                <i class="fa-regular fa-square"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="search-items">
+                        <h3 class="card-title">Top Search Items</h3>
+                        <p class="card-desc"></p>
+                        <div class="wrapper">
+                            <div class="header dis-flex-align-center-just-between mb-20">
+                                <span>Keyword</span>
+                                <span>Search Count</span>
+                            </div>
+                            <div class="body">
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">Programming</p>
+                                    <span class="nu">220</span>
+                                </div>
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">Javascript</p>
+                                    <span class="nu">180</span>
+                                </div>
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">PHP</p>
+                                    <span class="nu">160</span>
+                                </div>
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">Code</p>
+                                    <span class="nu">145</span>
+                                </div>
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">Design</p>
+                                    <span class="nu">110</span>
+                                </div>
+                                <div class="item mb-10 dis-flex-align-center-just-between ">
+                                    <p class="title">Logic</p>
+                                    <span class="nu">95</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="uploads">
+                        <h3 class="card-title">Latest uploads</h3>
+                        <p class="card-desc"></p>
+                        <div class="wrapper">
+                            <div class="item mb-10 dis-flex-align-center-just-between">
+                                <div class="left dis-flex align-center " >
+                                    <div class="img-wrapper mr-10">
+                                        <img src="imgs/files/001-doc.png" />
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">My-file.pdf</p>
+                                        <span class="user">Admin</span>
+                                    </div>
+                                </div>
+                                <span class="size">
+                                    5.3mb
+                                </span>
+                            </div>
+                            <div class="item mb-10 dis-flex-align-center-just-between">
+                                <div class="left dis-flex align-center " >
+                                    <div class="img-wrapper mr-10">
+                                        <img src="imgs/files/002-xls.png" />
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">pic.pdf</p>
+                                        <span class="user">Omar</span>
+                                    </div>
+                                </div>
+                                <span class="size">
+                                    2.9mb
+                                </span>
+                            </div>
+                            <div class="item mb-10 dis-flex-align-center-just-between">
+                                <div class="left dis-flex align-center " >
+                                    <div class="img-wrapper mr-10">
+                                        <img src="imgs/files/003-png.png" />
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">test.pdf</p>
+                                        <span class="user">Mohamed</span>
+                                    </div>
+                                </div>
+                                <span class="size">
+                                    2.4mb
+                                </span>
+                            </div>
+                            <div class="item mb-10 dis-flex-align-center-just-between">
+                                <div class="left dis-flex align-center " >
+                                    <div class="img-wrapper mr-10">
+                                        <img src="imgs/files/005-csv-file.png" />
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">My-file.pdf</p>
+                                        <span class="user">Admin</span>
+                                    </div>
+                                </div>
+                                <span class="size">
+                                    1mb
+                                </span>
+                            </div>
+                            <div class="item mb-10 dis-flex-align-center-just-between">
+                                <div class="left dis-flex align-center " >
+                                    <div class="img-wrapper mr-10">
+                                        <img src="imgs/files/006-pdf.png" />
+                                    </div>
+                                    <div class="info">
+                                        <p class="name">My-file.pdf</p>
+                                        <span class="user">Admin</span>
+                                    </div>
+                                </div>
+                                <span class="size">
+                                    4.6mb
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="projects">
+                        <h3 class="card-title">Last project progress</h3>
+                        <p class="card-desc"></p>
+                        <div class="steps">
+                            <div class="step dis-flex align-center done">
+                                <div class="circle"><span></span></div>
+                                <p class="name">Got the project</p>
+                            </div>
+                            <div class="step dis-flex align-center done">
+                                <div class="circle"><span></span></div>
+                                <p class="name">Start the project</p>
+                            </div>
+                            <div class="step dis-flex align-center done">
+                                <div class="circle"><span></span></div>
+                                <p class="name">Make demo with client</p>
+                            </div>
+                            <div class="step dis-flex align-center current">
+                                <div class="circle"><span></span></div>
+                                <p class="name">Apply comments</p>
+                            </div>
+                            <div class="step dis-flex align-center">
+                                <div class="circle"><span></span></div>
+                                <p class="name">Deliver the project</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="reminders">
+                        <h3 class="card-title">Reminder</h3>
+                        <p class="card-desc"></p>
+                        <div class="wrapper">
+                            <div class="item dis-flex align-center red">
+                                <div class="circle">
+                                    <span></span>
+                                </div>
+                                <div class="info">
+                                    <p class="name">Check my tasks</p>
+                                    <span class="date">28/2/2019 - 12:00am</span>
+                                </div>
+                            </div>
+                            <div class="item dis-flex align-center blue">
+                                <div class="circle">
+                                    <span></span>
+                                </div>
+                                <div class="info">
+                                    <p class="name">Check my tasks</p>
+                                    <span class="date">28/2/2019 - 12:00am</span>
+                                </div>
+                            </div>
+                            <div class="item dis-flex align-center orange">
+                                <div class="circle">
+                                    <span></span>
+                                </div>
+                                <div class="info">
+                                    <p class="name">Check my tasks</p>
+                                    <span class="date">28/2/2019 - 12:00am</span>
+                                </div>
+                            </div>
+                            <div class="item dis-flex align-center green">
+                                <div class="circle">
+                                    <span></span>
+                                </div>
+                                <div class="info">
+                                    <p class="name">Check my tasks</p>
+                                    <span class="date">28/2/2019 - 12:00am</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="post">
+                        <h3 class="card-title">Latest Post</h3>
+                        <p class="card-desc"></p>
+                        <div class="post">
+                            <div class="top dis-flex align-center">
+                                <div class="img-wrapper">
+                                    <img src="imgs/profile.png" >
+                                </div>
+                                <div class="info">
+                                    <p class="name">Omar Gaafar</p>
+                                    <span class="date">About 3 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione perferendis repellat minus, consectetur dolorum odio accusamus enim voluptate</p>
+                            </div>
+                            <div class="bottom dis-flex-align-center-just-between">
+                                <div class="likes item dis-flex align-center">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span>1.8k</span>
+                                </div>
+                                <div class="comments item dis-flex align-center">
+                                    <i class="fa-solid fa-comments"></i>
+                                    <span>500</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="social-media">
+                        <h3 class="card-title">Social media stats</h3>
+                        <p class="card-desc"></p>
+                        <div class="item twitter dis-flex align-center">
+                            <div class="icon">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="info dis-flex-align-center-just-between">
+                                <div class="nu">
+                                    92k Followers
+                                </div>
+                                <span class="btn">
+                                    Follow
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item facebook dis-flex align-center">
+                            <div class="icon">
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                            <div class="info dis-flex-align-center-just-between">
+                                <div class="nu">
+                                    130k Likes
+                                </div>
+                                <span class="btn">
+                                    Like
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item youtube dis-flex align-center">
+                            <div class="icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class="info dis-flex-align-center-just-between">
+                                <div class="nu">
+                                    180k Subscribers
+                                </div>
+                                <span class="btn">
+                                    Subscribe
+                                </span>
+                            </div>
+                        </div>
+                        <div class="item linkedin dis-flex align-center">
+                            <div class="icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="info dis-flex-align-center-just-between">
+                                <div class="nu">
+                                    70k Followers
+                                </div>      
+                                <span class="btn">
+                                    Follow
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="wrapper p-20">
+                <div class="card">
+                    <div class="">
+                        <h3 class="card-title">Projects</h3>
+                        <p class="card-desc"></p>
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Finish date</th>
+                                        <th>Client</th>
+                                        <th>Price</th>
+                                        <th>Team</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Admin dashboard</td>
+                                        <td>3 / 3 /2024</td>
+                                        <td>Personal</td>
+                                        <td>30 , 000$</td>
+                                        <td>
+                                            <div class="imgs">
+                                                <img src="imgs/users/001-man.png">
+                                                <img src="imgs/users/002-woman.png">
+                                                <img src="imgs/users/003-man-1.png">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="status blue">
+                                                Pending
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Portfolio</td>
+                                        <td>22 / 5 /2026</td>
+                                        <td>Company</td>
+                                        <td>87 , 000$</td>
+                                        <td>
+                                            <div class="imgs">
+                                                <img src="imgs/users/006-user.png">
+                                                <img src="imgs/users/004-boy.png">
+                                                <img src="imgs/users/002-woman.png">
+                                                <img src="imgs/users/001-man.png">
+                                                <img src="imgs/users/005-bussiness-man.png">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="status red">
+                                                Rejected
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>React course</td>
+                                        <td>1 / 6 /2024</td>
+                                        <td>Learning</td>
+                                        <td>15 , 000$</td>
+                                        <td>
+                                            <div class="imgs">
+                                                <img src="imgs/users/001-man.png">
+                                                <img src="imgs/users/003-man-1.png">
+                                                <img src="imgs/users/002-woman.png">
+                                                <img src="imgs/users/004-boy.png">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="status green">
+                                                Completed
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>E commerce</td>
+                                        <td>10 / 12 / 2026</td>
+                                        <td>Company</td>
+                                        <td>125, 000$</td>
+                                        <td>
+                                            <div class="imgs">
+                                                <img src="imgs/users/002-woman.png">
+                                                <img src="imgs/users/006-user.png">
+                                                <img src="imgs/users/005-bussiness-man.png">
+                                                <img src="imgs/users/004-boy.png">
+                                                <img src="imgs/users/001-man.png">
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <span class="status orange">
+                                                Pending
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
